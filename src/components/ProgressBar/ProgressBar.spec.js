@@ -11,5 +11,5 @@ describe('ProgressBar', () => {
         const wrapper = Enzyme.shallow(<ProgressBar percent={50} width={100} />);
         const width = wrapper.instance().getWidthAsPercentOfTotalWidth();
         expect(width).toEqual(50);
-    });
+    }); 
 });  

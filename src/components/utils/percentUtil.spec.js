@@ -6,4 +6,4 @@ describe('getWidthAsPercentOfTotalWidth',()=>{
         const width = getWidthAsPercentOfTotalWidth(50,500);
         expect(width).toEqual(250);
     })
-})
+}) 
